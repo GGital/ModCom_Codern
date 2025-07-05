@@ -10,6 +10,11 @@ int main()
 {
     int n;
     scanf("%d", &n);
+
+    if(n < 0) {
+        printf("Fibonacci is not defined for negative numbers!");
+        return 0;
+    }
     printf("Fibonacci number of %d is %d", n, fibo(n));
     return 0;
 }

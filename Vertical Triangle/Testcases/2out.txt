@@ -1,1 +1,1 @@
-9
+Fibonacci is not defined for negative numbers!
