@@ -22,7 +22,6 @@
      - A `Testcases` folder containing input/output files (e.g., `1in.txt`, `1out.txt`, etc.)
    - Example structure:
      ```
-     Example/
        YourProblemName/
          solution.c
          Description.md
