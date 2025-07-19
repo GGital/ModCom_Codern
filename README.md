@@ -14,8 +14,22 @@
      ```sh
      git checkout -b your-branch-name
      ```
-4. **Make your changes**
-   - Add your code, tests, or documentation.
+4. **Add your problemset (follow the Example folder structure)**
+   - Inside the `Example` folder, create a new folder named after your problem.
+   - In your problem folder, add:
+     - Your solution file (e.g., `solution.c`)
+     - A `Description.md` file describing the problem
+     - A `Testcases` folder containing input/output files (e.g., `1in.txt`, `1out.txt`, etc.)
+   - Example structure:
+     ```
+       YourProblemName/
+         solution.c
+         Description.md
+         Testcases/
+           1in.txt
+           1out.txt
+           ...
+     ```
 5. **Commit your changes**
    - Stage and commit your changes:
      ```sh
