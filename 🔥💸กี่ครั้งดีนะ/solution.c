@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 int main(){
-    int n,m,refills = 0,current_fuel = 0;
+    int n;
+    int m;
+    int refills = 0;
+    int current_fuel = 0;
+
     scanf("%d %d",&m,&n);
     for (int i = 0; i < n; i++){
         int T;
@@ -11,7 +15,6 @@ int main(){
             current_fuel = m;
         }
         current_fuel -= T;
-        
     }
 
     printf("%d",refills);

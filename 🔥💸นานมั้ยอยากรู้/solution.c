@@ -2,10 +2,12 @@
 
 int main(){
     int dis;
-    float speed,alltime;
+    float speed;
+    float alltime;
+
     scanf("%f",&speed);
-    speed = speed*3.6;
     scanf("%d",&dis);
+    speed = speed*3.6;
     while (dis != -1){
         alltime += (dis/speed);
         scanf("%d",&dis);
