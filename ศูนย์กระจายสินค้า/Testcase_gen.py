@@ -14,7 +14,7 @@ def gen_no_case(min_len=1, max_len=10):
     s = s[:idx] + wrong_char + s[idx+1:]
     return p, s
 
-def write_case_files(num_cases=5, outcome='ANY', min_len=100, max_len=4000, output_dir='Testcases', seed=None):
+def write_case_files(num_cases=4, outcome='ANY', min_len=100, max_len=4000, output_dir='New', seed=None):
     if seed is not None:
         random.seed(seed)
 
@@ -34,4 +34,4 @@ def write_case_files(num_cases=5, outcome='ANY', min_len=100, max_len=4000, outp
         with open(os.path.join(output_dir, f'{i}in.txt'), 'w') as f:
             f.write(p + '\n\n' + s + '\n')
 
-write_case_files(num_cases=10, outcome='ANY', min_len=100, max_len=4000, output_dir='Testcases', seed=42)
+write_case_files(num_cases=10, outcome='NO', min_len=30, max_len=100, output_dir='New', seed=24)
