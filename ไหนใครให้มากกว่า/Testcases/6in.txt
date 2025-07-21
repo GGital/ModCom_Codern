@@ -1,0 +1,6 @@
+5
+Tom 50
+Jerry 80
+Spike 80
+Tyke 30
+Nibbles 70
